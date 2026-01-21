@@ -1,0 +1,25 @@
+/* Combined CSS Selectors Practice */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Direct child selector */
+div > p {
+    color: firebrick;
+}
+
+/* Descendant selector */
+div ul li {
+    color: blue;
+}
+
+/* Class selector */
+li.done {
+    color: seagreen;
+}
+
+/* Element + class selector */
+ul p.done {
+    font-size: 0.5rem;
+}
